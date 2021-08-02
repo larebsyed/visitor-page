@@ -22,9 +22,16 @@
       })(window,document,'script','dataLayer','GTM-5BMCN2C');</script>
     <!-- End Google Tag Manager -->
         <script>
-    window.CrestaChatWidget = {
-        namespace: "bot_test"
-    };
+            window.CrestaChatWidget = {
+  config: {
+    namespace: "bot_test",
+    enableOnMobile: true
+  },
+};
+
+let widgetDiv = document.createElement('div');
+widgetDiv.id = "cresta-chat-widget";
+document.body.append(widgetDiv);
         </script>
             </head>
 <body>
