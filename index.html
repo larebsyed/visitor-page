@@ -14,6 +14,15 @@
         #part2{min-height: 400px; background-color:#E6E4E4;}
 
     </style>
+                    <script>
+                console.log("configuring")
+            window.CrestaChatWidget = {
+  config: {
+    namespace: "cresta_test",
+    enableOnMobile: true
+  },
+};
+</script>
         <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -24,15 +33,8 @@
 
             </head>
 <body>
-            <script>
-                console.log("configuring")
-            window.CrestaChatWidget = {
-  config: {
-    namespace: "cresta_test",
-    enableOnMobile: true
-  },
-};
 
+                <script>
 let widgetDiv = document.createElement('div');
 widgetDiv.id = "cresta-chat-widget";
 document.body.append(widgetDiv);
